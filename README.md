@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+SokoNumber Game
+========================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+--------
+The SokoNumber React Application is a web-based puzzle game where the player's objective is to arrange boxes with numbers in their designated positions within a grid-like environment. This application is built with React and incorporates intelligent search algorithms to provide both a challenging gameplay experience and an automated solving feature.
 
-## Available Scripts
+Features
+--------
+- Intelligent Search Algorithms: The application employs four intelligent search algorithms - Depth-First Search (DFS), Breadth-First Search (BFS), Uniform Search, and A\* (A-star) - to solve the puzzles with the minimum number of moves. Each algorithm is applied to solve one of the available levels in the game.
+- User Mode: In addition to the automated solving feature, the application offers a user mode where players can attempt to solve the puzzles themselves. They can strategize and move the boxes with numbers to complete the levels.
+- Algorithm Statistics: After applying an algorithm to solve a level, the application displays statistics related to the solving process. This includes the time taken to solve the puzzle, the amount of space utilized, the number of states visited during the search, and the minimum number of moves required to solve the puzzle.
 
-In the project directory, you can run:
+Release
+-------
+Feel free to test it [Sokonumber-game](https://twfek-ajeneh.github.io/SokoNumber-Game/#/sokonumber/home)
 
-### `npm start`
+Preview
+-------
+![Opera Snapshot_2023-08-30_201305_twfek-ajeneh github io](https://github.com/Twfek-Ajeneh/SokoNumber-Game/assets/92256265/c7aea4cf-3a4f-42d4-8792-489be4ce3b61)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Opera Snapshot_2023-08-30_201318_twfek-ajeneh github io](https://github.com/Twfek-Ajeneh/SokoNumber-Game/assets/92256265/a0030f2d-1bc1-4387-86f6-34b9f260df57)
