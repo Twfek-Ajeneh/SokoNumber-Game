@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Start Global Rules */
+*{
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #47B5FF;
+  --secondary-color1: #DFF6FF;
+  --secondary-color2: #1363DF;
+  --secondary-color3: #06283D;
+  --main-red: #FF1E1E;
+  --win-color: #00C897;
+}
+
+html {
+  user-select: none;
+}
+
+body {
+  font-family: 'Russo One', sans-serif;
+  overscroll-behavior-y: none;
+  overscroll-behavior: none;
+  background-color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Small */
+@media (min-width: 768px) { }
+
+/* Medium */
+@media (min-width: 992px) { }
+
+/* Large */
+@media (min-width: 1200px) { }
+/* End Global Rules */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+}
+
+@media(max-width: 767px){
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: var(--secondary-color1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--secondary-color2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color3);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--secondary-color3);
+}
+/* ------------------------------------------------------------------------------------------------------- */
